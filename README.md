@@ -1,267 +1,85 @@
-<!-- ─── HEADER ─── -->
+## Oualid Obbad
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:F7A41D&height=200&section=header&text=Oualid%20Obbad&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=Software%20Developer%20•%2042%20Student&descSize=18&descAlignY=55&animation=fadeIn" width="100%" />
+Software engineering student at **42 / 1337 (UM6P) Rabat**, focused on **backend development** with Java and systems programming in C/C++.
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=20&duration=3000&pause=1000&color=F7A41D&vCenter=true&width=500&lines=Systems+%26+Low-Level+Programming;Full-Stack+Web+Development;Algorithm+Design+%26+Optimization;42+Student+at+1337+%7C+UM6P+RABAT" alt="Typing SVG" />
-</p>
-<p align="center">
-  <a href="https://profile.intra.42.fr/users/oobbad">
-    <img src="https://badge.mediaplus.ma/binary/oobbad" alt="oobbad's 42 stats" /></a>
-</p>
+I like problems where correctness matters: concurrency, memory management, database design, and containerized infrastructure. Most of what I know comes from building things from scratch — a shell-free raycasting engine, a thread-safe simulation, a layered Java application on PostgreSQL, and a multi-container Docker stack.
 
-<p align="center">
-  <a href="https://github.com/oualidobbad"><img src="https://img.shields.io/badge/GitHub-oualidobbad-181717?style=for-the-badge&logo=github" alt="GitHub" /></a>
-  &nbsp;
-  <a href="https://profile.intra.42.fr/"><img src="https://img.shields.io/badge/42-oobbad-000000?style=for-the-badge&logo=42&logoColor=white" alt="42 Profile" /></a>
-  &nbsp;
-  <a href="mailto:oualidobbad@gmail.com"><img src="https://img.shields.io/badge/Email-oualidobbad@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/oualid-obbad/"><img src="https://img.shields.io/badge/LinkedIn-Oualid%20Obbad-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=oualidobbad&style=for-the-badge&color=F7A41D&label=PROFILE+VIEWS" alt="Profile Views" />
-</p>
+**Currently seeking a software engineering internship.**
 
 ---
 
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> &nbsp;About Me
+### Technical Skills
 
-```java
-public class OualidObbad extends Developer {
+**Languages**
+`Java` · `C` · `C++` · `Python` · `JavaScript` · `Bash` · `SQL`
 
-    private String   name      = "Oualid Obbad";
-    private String   role      = "Software Developer";
-    private String   school    = "42 | 1337 (UM6P) RABAT";
-    private String   login     = "oobbad";
-    private String   email     = "oualidobbad@gmail.com";
+**Backend & Data**
+`Spring Framework (IoC / DI)` · `Spring JDBC` · `JDBC` · `HikariCP` · `PostgreSQL` · `MariaDB` · `Maven` · `JUnit 5` · `Mockito`
 
-    private String[] languages = { "C", "C++98", "Java", "Python",
-                                   "JavaScript", "HTML/CSS", "Bash" };
-    private String[] interests = { "Systems Programming", "Algorithms",
-                                   "Full-Stack Web Dev", "AI Integration" };
-
-    public String getCurrentFocus() {
-        return "Building robust software — from kernel-level "
-             + "systems programming to modern web applications";
-    }
-
-    public String[] getDailyRoutine() {
-        return new String[] {
-            "☕ Coffee",
-            "💻 Code",
-            "🐛 Debug",
-            "🔁 Repeat"
-        };
-    }
-
-    public String getPhilosophy() {
-        return "First, solve the problem. Then, write the code.";
-    }
-}
-```
+**Systems & Tooling**
+`Docker` · `Docker Compose` · `NGINX` · `Linux` · `Git & GitHub` · `Make` · `POSIX threads` · `Networking (TCP/IP, TLS)`
 
 ---
 
-## ⚙️ Tech Stack
+### Featured Projects
 
-<table>
-  <tr>
-    <td><b>🖥️ Systems &<br/>Low-Level</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-      <img src="https://img.shields.io/badge/C++98-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
-      <img src="https://img.shields.io/badge/Makefile-427819?style=for-the-badge&logo=gnu&logoColor=white" alt="Makefile" />
-      <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
-    </td>
-  </tr>
-  <tr>
-    <td><b>🌐 Frontend</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-    </td>
-  </tr>
-  <tr>
-    <td><b>🧠 Backend &<br/>Languages</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-    </td>
-  </tr>
-  <tr>
-    <td><b>🛠️ DevOps &<br/>Tools</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-      <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-      <img src="https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white" alt="Vim" />
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-    </td>
-  </tr>
-</table>
+#### [inception-42](https://github.com/obbad-dev/inception-42) — Containerized web infrastructure
+A complete multi-service infrastructure built from scratch with Docker, with every service in its own container built from a custom Dockerfile.
+
+- **Stack:** Docker, Docker Compose, NGINX, MariaDB, Redis, WordPress (PHP-FPM), Adminer, dnsmasq, Bash, Make
+- **Demonstrates:** service isolation on a dedicated bridge network, NGINX reverse proxy as the sole entrypoint with TLSv1.2/1.3, Docker secrets for credential handling, persistent volumes, and reproducible one-command deployment
+
+#### [pool_java_part2](https://github.com/obbad-dev/pool_java_part2) — Java backend engineering
+Four progressive modules covering the layers of a real backend application, built with Maven.
+
+- **Stack:** Java 17+, Maven, PostgreSQL, JDBC, HikariCP, Spring Framework, JUnit 5, Mockito, HSQLDB
+- **Demonstrates:**
+  - A layered chat application — normalized PostgreSQL schema (users, chatrooms, messages, join tables with foreign keys), a repository layer over JDBC, connection pooling with HikariCP, and service-level transaction handling
+  - Unit and integration testing with JUnit 5 and Mockito against an embedded database
+  - A **custom ORM** built with Java reflection and custom annotations (`@OrmEntity`, `@OrmColumn`) that maps objects to SQL at runtime
+  - Dependency injection and IoC with the Spring container
+
+#### [cub3d](https://github.com/obbad-dev/cub3d_mandatory) — Raycasting 3D engine in C
+A Wolfenstein-style renderer that turns a 2D tile map into a navigable 3D view.
+
+- **Stack:** C, MiniLibX, Make
+- **Demonstrates:** DDA raycasting with horizontal/vertical intersection selection, texture mapping with per-direction wall textures, a real-time render loop at 1920×1080, custom file parsing and validation, and manual memory management across a modular codebase
+
+#### [philosophers](https://github.com/obbad-dev/philosophers_42) — Concurrency simulation in C
+The Dining Philosophers problem solved with real threads and precise timing constraints.
+
+- **Stack:** C, POSIX threads, mutexes
+- **Demonstrates:** deadlock avoidance through parity-ordered resource acquisition, race-condition-free shared state, a monitoring thread detecting starvation at millisecond resolution, and clean shutdown of all threads
+
+#### [chat_bot_ISS](https://github.com/obbad-dev/chat_bot_ISS) — AI-powered learning assistant
+An interactive educational chatbot delivering lessons, quizzes, and scored feedback.
+
+- **Stack:** Python, Google Gemini API, Gradio
+- **Demonstrates:** LLM integration with stateful conversation sessions, application state management across a lesson/quiz flow, answer validation with generated explanations, and UI composition
 
 ---
 
-## 🚀 Featured Projects
+### Also in this profile
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3><a href="https://github.com/oualidobbad/cub3d_mandatory">🎮 cub3D</a></h3>
-      <p>A <b>Wolfenstein 3D–inspired raycasting engine</b> built from scratch in C using MiniLibX. Implements DDA raycasting, texture mapping, sprite rendering, and real-time keyboard/mouse controls.</p>
-      <p>
-        <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" />
-        <img src="https://img.shields.io/badge/Raycasting-F7A41D?style=flat-square" />
-        <img src="https://img.shields.io/badge/MiniLibX-161b22?style=flat-square" />
-      </p>
-    </td>
-    <td width="50%">
-      <h3><a href="https://github.com/oualidobbad/philosophers_42">🍝 Philosophers</a></h3>
-      <p>Concurrent simulation of the <b>Dining Philosophers problem</b> using POSIX threads and mutexes. Explores deadlock avoidance, race condition prevention, and microsecond-level synchronization.</p>
-      <p>
-        <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" />
-        <img src="https://img.shields.io/badge/Multithreading-F7A41D?style=flat-square" />
-        <img src="https://img.shields.io/badge/POSIX-161b22?style=flat-square" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3><a href="https://github.com/oualidobbad/pushSwap">🔢 push_swap</a></h3>
-      <p>An <b>optimized integer sorting algorithm</b> using two stacks and a restricted set of operations. Custom sorting strategy targeting minimum operation count for 100–500 element inputs.</p>
-      <p>
-        <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" />
-        <img src="https://img.shields.io/badge/Algorithms-F7A41D?style=flat-square" />
-        <img src="https://img.shields.io/badge/Sorting-161b22?style=flat-square" />
-      </p>
-    </td>
-    <td width="50%">
-      <h3><a href="https://github.com/oualidobbad/CPP00">📦 CPP Modules</a></h3>
-      <p>Progressive exploration of <b>C++98 OOP concepts</b> across 10 modules — from classes, inheritance, and polymorphism to templates, STL containers, and operator overloading.</p>
-      <p>
-        <img src="https://img.shields.io/badge/C++98-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
-        <img src="https://img.shields.io/badge/OOP-F7A41D?style=flat-square" />
-        <img src="https://img.shields.io/badge/STL-161b22?style=flat-square" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3><a href="https://github.com/oualidobbad/minishell">🐚 Minishell</a></h3>
-      <p>A <b>POSIX-compliant shell</b> built from scratch in C. Implements lexing, parsing, AST construction, heredocs, pipes, redirections, signal handling, and environment variable expansion.</p>
-      <p>
-        <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" />
-        <img src="https://img.shields.io/badge/Shell-F7A41D?style=flat-square" />
-        <img src="https://img.shields.io/badge/POSIX-161b22?style=flat-square" />
-      </p>
-    </td>
-    <td width="50%">
-      <h3><a href="https://github.com/oualidobbad/NetPractice">🌐 NetPractice</a></h3>
-      <p>Hands-on <b>networking fundamentals</b> — IP addressing, subnetting, routing tables, and TCP/IP configuration through practical exercises and network topology design.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Networking-0078D4?style=flat-square" />
-        <img src="https://img.shields.io/badge/TCP/IP-F7A41D?style=flat-square" />
-        <img src="https://img.shields.io/badge/Subnetting-161b22?style=flat-square" />
-      </p>
-    </td>
-  </tr>
-</table>
-
-> 📂 **More projects →** [github.com/oualidobbad?tab=repositories](https://github.com/oualidobbad?tab=repositories)
+- **C++ (98)** — [CPP00–CPP09](https://github.com/obbad-dev?tab=repositories&q=CPP): classes, inheritance, polymorphism, operator overloading, templates, STL containers and iterators
+- **C fundamentals** — [libft](https://github.com/obbad-dev/libft) (standard library reimplementation), [ft_printf](https://github.com/obbad-dev/ft_printf) (variadic formatting), [push_swap](https://github.com/obbad-dev/pushSwap) (constrained sorting), [minitalk](https://github.com/obbad-dev/minitalk) (UNIX signal IPC), [so_long](https://github.com/obbad-dev/so_long) (2D game)
+- **Java fundamentals** — [pool_java](https://github.com/obbad-dev/pool_java): OOP, collections, exceptions, I/O and streams, multithreading, JAR packaging, JDBC
+- **Databases & scripting** — [Celestial_Bodies_Database](https://github.com/obbad-dev/Celestial_Bodies_Database) (PostgreSQL schema design), [database workshops](https://github.com/obbad-dev/worshop_of_data_base) and [Bash scripting](https://github.com/obbad-dev/basic_bash_scripting)
 
 ---
 
-## 📊 GitHub Analytics
+### Currently
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=oualidobbad&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=F7A41D&icon_color=F7A41D&text_color=c9d1d9&ring_color=F7A41D" height="170" alt="GitHub Stats" />
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=oualidobbad&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=F7A41D&text_color=c9d1d9" height="170" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=oualidobbad&theme=tokyonight&hide_border=true&background=0d1117&ring=F7A41D&fire=F7A41D&currStreakLabel=F7A41D&sideLabels=c9d1d9&dates=555555" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=oualidobbad&bg_color=0d1117&color=F7A41D&line=F7A41D&point=ffffff&area_color=F7A41D&area=true&hide_border=true&custom_title=Contribution%20Activity" width="95%" alt="Activity Graph" />
-</p>
+- Deepening **Spring** — moving from the core container toward web-layer and data-access work
+- Strengthening **PostgreSQL** — query design, indexing, and transaction behaviour
+- Continuing the **42 cursus**, alongside applying for a software engineering internship
 
 ---
 
-## 🐍 Contribution Snake
+### Contact
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oualidobbad/oualidobbad/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/oualidobbad/oualidobbad/output/github-contribution-grid-snake.svg" />
-  <img src="https://raw.githubusercontent.com/oualidobbad/oualidobbad/output/github-contribution-grid-snake.svg" alt="Snake animation" width="100%" />
-</picture>
+[![Email](https://img.shields.io/badge/Email-oualidobbad@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:oualidobbad@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Oualid%20Obbad-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oualid-obbad/)
+[![42](https://img.shields.io/badge/42%20intra-oobbad-000000?style=flat-square&logo=42&logoColor=white)](https://profile.intra.42.fr/users/oobbad)
 
----
-
-## 📈 42 Cursus Progress
-
-> My learning journey through the **42 curriculum** at [1337 (UM6P)](https://1337.ma/).
-
-| Phase | Project | Description | Status |
-|:------|:--------|:------------|:------:|
-| **Piscine** | C Piscine | Intensive C programming bootcamp — loops, pointers, memory, shell | ✅ |
-| **Circle 0** | Libft | Custom implementation of the C standard library | ✅ |
-| **Circle 1** | ft_printf | Variadic-function printf recreation | ✅ |
-| | get_next_line | File descriptor line reader with static variables | ✅ |
-| | Born2beroot | Linux sysadmin — VM setup, users, firewall, SSH | ✅ |
-| **Circle 2** | push_swap | Stack-based sorting algorithm optimization | ✅ |
-| | minitalk | UNIX signal-based client-server communication | ✅ |
-| | so_long | 2D tile-map game with MiniLibX | ✅ |
-| **Circle 3** | Philosophers | Multithreaded dining philosophers simulation | ✅ |
-| | minishell | Building a POSIX-compliant shell from scratch | ✅ |
-| **Circle 4** | cub3D | Raycasting 3D engine inspired by Wolfenstein 3D | ✅ |
-| | NetPractice | Networking — IP addressing, subnetting, routing | ✅ |
-| | CPP Modules (00–04) | C++98 OOP — classes, inheritance, polymorphism | ✅ |
-| **Circle 5** | CPP Modules (05–09) | Advanced C++98 — templates, STL, iterators | ✅ |
-| | webServ | HTTP/1.1 web server implementation in C++98 | 🔄 |
-
----
-
-## 📖 Self-Learning
-
-Beyond the 42 curriculum, I continuously expand my skill set:
-
-- 🌐 &nbsp;**HTML & CSS** — Built responsive web pages with modern layout techniques (Flexbox, Grid)
-- ⚡ &nbsp;**JavaScript** — DOM manipulation, frontend interactivity, and async programming
-
-### ☕ Java Pool 42
-
-Currently progressing through the **42 Java Pool** — an intensive deep dive into Java and software engineering concepts.
-
-| Module | Topic | Description | Status |
-|:------:|:------|:------------|:------:|
-| **00** | Structures & Arrays | Java syntax, data types, arrays, and basic structures | ✅ |
-| **01** | OOP & Collections | Object-Oriented Programming, Collections framework | ✅ |
-| **02** | IO & Files | Input/Output operations, file reading/writing, streams | ✅ |
-| **03** | Threads | Multithreading, concurrency, synchronization | ✅ |
-| **04** | JAR | Java Archive packaging, build management, deployment | ✅ |
-| **05** | SQL & JDBC | Database interaction, SQL queries, JDBC | 🔄 |
-
-> 🔗 [**pool_java**](https://github.com/oualidobbad/pool_java) — Full repository with all completed modules
-
----
-
-## 📬 Let's Connect
-
-<p align="center">
-  <a href="mailto:oualidobbad@gmail.com"><img src="https://img.shields.io/badge/Gmail-oualidobbad@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/oualid-obbad/"><img src="https://img.shields.io/badge/LinkedIn-Oualid%20Obbad-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  &nbsp;
-  <a href="https://github.com/oualidobbad"><img src="https://img.shields.io/badge/GitHub-oualidobbad-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-</p>
-
----
-
-<p align="center">
-  <i>"First, solve the problem. Then, write the code."</i> — John Johnson
-</p>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:F7A41D&height=120&section=footer" width="100%" />
+Open to internship opportunities in backend, systems, or software engineering.
