@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="mailto:oualidobbad@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/oualid-obbad-0b4102302/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/oualid-obbad-0b4102302/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZiI%2BPHBhdGggZD0iTTMuNzUgOWgzLjN2MTJoLTMuM3pNNS40IDMuMTVhMS45NSAxLjk1IDAgMTEwIDMuOSAxLjk1IDEuOTUgMCAwMTAtMy45ek05LjYgOWgzLjE2djEuNjRoLjA1Yy40NC0uODMgMS41Mi0xLjcxIDMuMTMtMS43MSAzLjM1IDAgMy45NiAyLjIgMy45NiA1LjA3VjIxaC0zLjN2LTUuOTRjMC0xLjQyLS4wMy0zLjI0LTEuOTgtMy4yNC0xLjk4IDAtMi4yOCAxLjU1LTIuMjggMy4xNFYyMUg5LjZ6Ii8%2BPC9zdmc%2B&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://profile.intra.42.fr/users/oobbad"><img src="https://img.shields.io/badge/42%20Intra-000000?style=for-the-badge&logo=42&logoColor=white" alt="42 Intra" /></a>
   <img src="https://komarev.com/ghpvc/?username=obbad-dev&style=for-the-badge&color=F7A41D&label=VIEWS" alt="Profile views" />
 </p>
