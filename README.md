@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="mailto:oualidobbad@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/oualid-obbad/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/oualid-obbad/"><img src="oualid-obbad-0b4102302?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://profile.intra.42.fr/users/oobbad"><img src="https://img.shields.io/badge/42%20Intra-000000?style=for-the-badge&logo=42&logoColor=white" alt="42 Intra" /></a>
   <img src="https://komarev.com/ghpvc/?username=obbad-dev&style=for-the-badge&color=F7A41D&label=VIEWS" alt="Profile views" />
 </p>
