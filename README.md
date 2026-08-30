@@ -1,78 +1,96 @@
 ## Oualid Obbad
 
-Software engineering student at **42 / 1337 (UM6P) Rabat**, focused on **backend development** with Java and systems programming in C/C++.
+Software engineering student at **42 / 1337 (UM6P) Rabat**, specializing in **backend development**.
 
-I like problems where correctness matters: concurrency, memory management, database design, and containerized infrastructure. Most of what I know comes from building things from scratch — a shell-free raycasting engine, a thread-safe simulation, a layered Java application on PostgreSQL, and a multi-container Docker stack.
+I build systems from the ground up: an HTTP/1.1 web server on a non-blocking event loop, a POSIX shell, a layered Java application over PostgreSQL, and a multi-container Docker infrastructure. I work most confidently in **C, C++, and Java**, and I'm currently focused on the **Java/Spring** backend ecosystem.
 
-**Currently seeking a software engineering internship.**
+**Open to a software engineering internship.**
 
 ---
 
 ### Technical Skills
 
-**Languages**
-`Java` · `C` · `C++` · `Python` · `JavaScript` · `Bash` · `SQL`
-
-**Backend & Data**
-`Spring Framework (IoC / DI)` · `Spring JDBC` · `JDBC` · `HikariCP` · `PostgreSQL` · `MariaDB` · `Maven` · `JUnit 5` · `Mockito`
-
-**Systems & Tooling**
-`Docker` · `Docker Compose` · `NGINX` · `Linux` · `Git & GitHub` · `Make` · `POSIX threads` · `Networking (TCP/IP, TLS)`
+| | |
+|---|---|
+| **Core languages** | C · C++ (98) · Java |
+| **Backend** | Spring Framework (IoC / DI) · Spring JDBC · JDBC · HikariCP · Maven · JUnit 5 · Mockito · HTTP/1.1 · CGI · REST fundamentals |
+| **Databases** | PostgreSQL · MariaDB · SQL schema design |
+| **Systems & tools** | Linux · Docker · Docker Compose · NGINX · Git & GitHub · Make · POSIX threads · Sockets & `epoll` |
+| **Secondary** | JavaScript · HTML · CSS · Bash · Python (basics) |
 
 ---
 
 ### Featured Projects
 
-#### [inception-42](https://github.com/obbad-dev/inception-42) — Containerized web infrastructure
-A complete multi-service infrastructure built from scratch with Docker, with every service in its own container built from a custom Dockerfile.
+#### [webserv](https://github.com/obbad-dev/webServ) — HTTP/1.1 web server in C++98
+*Team of 2.* An NGINX-inspired web server written from scratch, with no external libraries.
 
-- **Stack:** Docker, Docker Compose, NGINX, MariaDB, Redis, WordPress (PHP-FPM), Adminer, dnsmasq, Bash, Make
-- **Demonstrates:** service isolation on a dedicated bridge network, NGINX reverse proxy as the sole entrypoint with TLSv1.2/1.3, Docker secrets for credential handling, persistent volumes, and reproducible one-command deployment
+Single-threaded, non-blocking event loop built on `epoll()`. Implements `GET`/`POST`/`DELETE`, a hand-written tokenizer and parser for an NGINX-style configuration file, virtual hosting with `server_name` matching, per-route rules, CGI execution, multipart file uploads, directory autoindex, configurable error pages, redirects, and request body size limits.
+
+`C++98` · `Sockets` · `epoll` · `HTTP/1.1` · `CGI` · `Make`
+
+**Demonstrates:** network and socket programming, I/O multiplexing, protocol implementation from an RFC, parser design, and object-oriented architecture across a large C++ codebase.
 
 #### [pool_java_part2](https://github.com/obbad-dev/pool_java_part2) — Java backend engineering
-Four progressive modules covering the layers of a real backend application, built with Maven.
+Four Maven modules covering the layers of a real backend application.
 
-- **Stack:** Java 17+, Maven, PostgreSQL, JDBC, HikariCP, Spring Framework, JUnit 5, Mockito, HSQLDB
-- **Demonstrates:**
-  - A layered chat application — normalized PostgreSQL schema (users, chatrooms, messages, join tables with foreign keys), a repository layer over JDBC, connection pooling with HikariCP, and service-level transaction handling
-  - Unit and integration testing with JUnit 5 and Mockito against an embedded database
-  - A **custom ORM** built with Java reflection and custom annotations (`@OrmEntity`, `@OrmColumn`) that maps objects to SQL at runtime
-  - Dependency injection and IoC with the Spring container
+A chat application built on a normalized PostgreSQL schema (users, chatrooms, messages, join tables with foreign keys) with a repository layer over JDBC and connection pooling via HikariCP. Includes unit and integration tests with JUnit 5 and Mockito against an embedded database, a **custom ORM** driven by Java reflection and custom annotations (`@OrmEntity`, `@OrmColumn`), and dependency injection through the Spring container.
 
-#### [cub3d](https://github.com/obbad-dev/cub3d_mandatory) — Raycasting 3D engine in C
+`Java 17+` · `Maven` · `PostgreSQL` · `JDBC` · `HikariCP` · `Spring Framework` · `JUnit 5` · `Mockito`
+
+**Demonstrates:** layered backend architecture, relational modelling, data-access design, dependency injection, and testing discipline.
+
+#### [minishell](https://github.com/obbad-dev/minishell) — POSIX shell in C
+*Team of 2.* A Bash-like shell built from scratch, with no parsing libraries.
+
+Full pipeline: lexer → variable expansion → parser → execution. Supports pipes, input/output/append redirection, heredocs, single and double quoting rules, `$VAR` and `$?` expansion, ambiguous-redirect detection, the seven required builtins (`echo`, `cd`, `pwd`, `export`, `unset`, `env`, `exit`), Bash-accurate signal behaviour, and a custom tracking allocator for leak-free cleanup.
+
+`C` · `Processes & fork/execve` · `Pipes` · `File descriptors` · `Signals` · `GNU Readline`
+
+**Demonstrates:** UNIX process and file-descriptor management, tokenizer and recursive-descent parser design, signal handling, and disciplined memory management.
+
+#### [inception](https://github.com/obbad-dev/inception-42) — Containerized infrastructure
+A multi-service stack where every service runs in its own container from a hand-written Dockerfile.
+
+NGINX reverse proxy as the sole entrypoint with TLSv1.2/1.3, WordPress on PHP-FPM, MariaDB, Redis cache, Adminer, an FTP server, and a local DNS resolver — all on an isolated bridge network, with credentials handled through Docker secrets, persistent volumes, and a single-command Make deployment.
+
+`Docker` · `Docker Compose` · `NGINX` · `MariaDB` · `Redis` · `Linux` · `Bash` · `Make`
+
+**Demonstrates:** container orchestration, service isolation, reverse proxying and TLS, secret handling, and reproducible infrastructure.
+
+#### [cub3D](https://github.com/obbad-dev/cub3d_mandatory) — Raycasting 3D engine in C
 A Wolfenstein-style renderer that turns a 2D tile map into a navigable 3D view.
 
-- **Stack:** C, MiniLibX, Make
-- **Demonstrates:** DDA raycasting with horizontal/vertical intersection selection, texture mapping with per-direction wall textures, a real-time render loop at 1920×1080, custom file parsing and validation, and manual memory management across a modular codebase
+DDA raycasting with horizontal/vertical intersection selection, per-direction wall texture mapping, a real-time render loop at 1920×1080, a minimap, and a custom `.cub` scene-file parser with full validation.
 
-#### [philosophers](https://github.com/obbad-dev/philosophers_42) — Concurrency simulation in C
-The Dining Philosophers problem solved with real threads and precise timing constraints.
+`C` · `MiniLibX` · `Make`
 
-- **Stack:** C, POSIX threads, mutexes
-- **Demonstrates:** deadlock avoidance through parity-ordered resource acquisition, race-condition-free shared state, a monitoring thread detecting starvation at millisecond resolution, and clean shutdown of all threads
+**Demonstrates:** applied geometry, real-time rendering, modular C design, and manual memory management.
 
-#### [chat_bot_ISS](https://github.com/obbad-dev/chat_bot_ISS) — AI-powered learning assistant
-An interactive educational chatbot delivering lessons, quizzes, and scored feedback.
+#### [philosophers](https://github.com/obbad-dev/philosophers_42) — Concurrency in C
+The Dining Philosophers problem under strict timing constraints.
 
-- **Stack:** Python, Google Gemini API, Gradio
-- **Demonstrates:** LLM integration with stateful conversation sessions, application state management across a lesson/quiz flow, answer validation with generated explanations, and UI composition
+Deadlock avoidance via parity-ordered resource acquisition, race-condition-free shared state, a dedicated monitoring thread detecting starvation at millisecond resolution, and clean shutdown of every thread.
+
+`C` · `POSIX threads` · `Mutexes`
+
+**Demonstrates:** multithreading, synchronization primitives, deadlock and race-condition reasoning.
 
 ---
 
-### Also in this profile
+### Also on this profile
 
-- **C++ (98)** — [CPP00–CPP09](https://github.com/obbad-dev?tab=repositories&q=CPP): classes, inheritance, polymorphism, operator overloading, templates, STL containers and iterators
-- **C fundamentals** — [libft](https://github.com/obbad-dev/libft) (standard library reimplementation), [ft_printf](https://github.com/obbad-dev/ft_printf) (variadic formatting), [push_swap](https://github.com/obbad-dev/pushSwap) (constrained sorting), [minitalk](https://github.com/obbad-dev/minitalk) (UNIX signal IPC), [so_long](https://github.com/obbad-dev/so_long) (2D game)
+- **C++98 / OOP** — [CPP00–CPP09](https://github.com/obbad-dev?tab=repositories&q=CPP): inheritance, polymorphism, operator overloading, exceptions, templates, STL containers and iterators
+- **C fundamentals** — [libft](https://github.com/obbad-dev/libft) · [ft_printf](https://github.com/obbad-dev/ft_printf) · [push_swap](https://github.com/obbad-dev/pushSwap) · [minitalk](https://github.com/obbad-dev/minitalk) · [so_long](https://github.com/obbad-dev/so_long)
 - **Java fundamentals** — [pool_java](https://github.com/obbad-dev/pool_java): OOP, collections, exceptions, I/O and streams, multithreading, JAR packaging, JDBC
-- **Databases & scripting** — [Celestial_Bodies_Database](https://github.com/obbad-dev/Celestial_Bodies_Database) (PostgreSQL schema design), [database workshops](https://github.com/obbad-dev/worshop_of_data_base) and [Bash scripting](https://github.com/obbad-dev/basic_bash_scripting)
+- **Databases & scripting** — [Celestial_Bodies_Database](https://github.com/obbad-dev/Celestial_Bodies_Database) · [database workshops](https://github.com/obbad-dev/worshop_of_data_base) · [Bash scripting](https://github.com/obbad-dev/basic_bash_scripting)
+- **Web basics** — [html-css](https://github.com/obbad-dev/html-css): responsive layouts with Flexbox and Grid
 
 ---
 
 ### Currently
 
-- Deepening **Spring** — moving from the core container toward web-layer and data-access work
-- Strengthening **PostgreSQL** — query design, indexing, and transaction behaviour
-- Continuing the **42 cursus**, alongside applying for a software engineering internship
+Learning **Spring Boot** — building on the Spring core container and Spring JDBC work above, toward REST APIs and persistence. Alongside it, deepening PostgreSQL (query design, indexing, transactions) and continuing the 42 cursus.
 
 ---
 
@@ -81,5 +99,3 @@ An interactive educational chatbot delivering lessons, quizzes, and scored feedb
 [![Email](https://img.shields.io/badge/Email-oualidobbad@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:oualidobbad@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Oualid%20Obbad-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oualid-obbad/)
 [![42](https://img.shields.io/badge/42%20intra-oobbad-000000?style=flat-square&logo=42&logoColor=white)](https://profile.intra.42.fr/users/oobbad)
-
-Open to internship opportunities in backend, systems, or software engineering.
