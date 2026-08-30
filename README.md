@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:1f2937,100:F7A41D&height=190&section=header&text=Oualid%20Obbad&fontSize=48&fontColor=ffffff&fontAlignY=34&desc=Backend%20Developer%20%E2%80%A2%20C%20%2F%20C%2B%2B%20%2F%20Java&descSize=17&descAlignY=54&animation=fadeIn" width="100%" alt="Oualid Obbad" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=900&color=F7A41D&center=true&vCenter=true&width=620&lines=Backend+Development+%E2%80%A2+Java+%26+Spring;Systems+Programming+in+C+%26+C%2B%2B98;HTTP+Servers%2C+Shells%2C+Concurrency;42+%2F+1337+(UM6P)+Rabat+%E2%80%A2+Cadet" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=900&color=F7A41D&center=true&vCenter=true&width=640&lines=Software+Engineer+%E2%80%A2+Backend+Development%3BJava+%26+Spring+%E2%80%A2+PostgreSQL+%E2%80%A2+Docker%3BSystems+Programming+in+C+%26+C%2B%2B98%3BHTTP+Servers%2C+Shells%2C+Concurrency%3B42+%2F+1337+%28UM6P%29+Rabat+%E2%80%A2+Cadet" alt="Typing SVG" />
 </p>
 
 <p align="center">
