@@ -38,7 +38,7 @@ $\textcolor{#F7A41D}{\textsf{\textbf{Role}}}$
 <td width="41%">Software Engineer · Backend Development</td>
 <td width="45%" align="center" valign="middle" rowspan="7">
   <a href="https://profile.intra.42.fr/users/oobbad">
-    <img src="https://raw.githubusercontent.com/obbad-dev/obbad-dev/main/assets/42-badge.svg" alt="Oualid Obbad — live 42 level and grade" width="400" />
+    <img src="https://raw.githubusercontent.com/obbad-dev/obbad-dev/main/assets/42-badge.svg?v=green" alt="Oualid Obbad — live 42 level and grade" width="400" />
   </a>
   <br/><br/>
   <sub>Live from the 42 intranet. Level and grade advance only on projects validated in peer code review.</sub>
