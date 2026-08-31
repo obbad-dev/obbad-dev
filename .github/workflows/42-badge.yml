@@ -11,6 +11,11 @@ on:
     - cron: "30 3 * * *" # daily at 03:30 UTC
   workflow_dispatch: # allows manual trigger
 
+env:
+  # Change THEME here to switch the badge style, then re-run this workflow.
+  THEME: kettlebells
+  LOGIN: oobbad
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
@@ -25,7 +30,7 @@ jobs:
         run: |
           mkdir -p assets
           curl -fsSL --retry 3 --retry-delay 5 --max-time 90 \
-            "https://badge.mediaplus.ma/kettlebells/oobbad" -o badge.tmp
+            "https://badge.mediaplus.ma/${THEME}/${LOGIN}" -o badge.tmp
 
       - name: Validate before replacing
         run: |
