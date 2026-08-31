@@ -14,18 +14,6 @@
   <img src="https://img.shields.io/badge/Casablanca,%20Morocco-F7A41D?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Casablanca, Morocco" />
 </p>
 
-<!-- ═══════════════════════ 42 BADGE ═══════════════════════ -->
-
-<h3 align="center">42 Cursus — live progress</h3>
-
-<p align="center">
-  <a href="https://profile.intra.42.fr/users/oobbad">
-    <img src="https://badge.mediaplus.ma/binary/oobbad" alt="Oualid Obbad — 42 level badge" width="440" />
-  </a>
-</p>
-
-<p align="center"><sub>Name, grade and level update automatically from the 42 intranet.</sub></p>
-
 ---
 
 ## Contents
@@ -40,13 +28,53 @@
 
 Software engineering student at **1337 / 42 Network (UM6P)**, focused on **backend development with C, C++ and Java**. I build real systems from scratch — web servers, a Unix shell, containerized applications — with a solid foundation in **networking, databases and Linux**. Currently seeking a backend engineering internship.
 
-- **Role** — Software Engineer · Backend Development
-- **Based in** — Casablanca, Morocco
-- **Education** — 1337 Coding School (42 Network) — UM6P, Rabat · BTS in Computer Systems and Networks
-- **Core languages** — C · C++98 · Java
-- **Backend focus** — Spring · PostgreSQL · Docker · Linux
-- **Currently building** — [ft_transcendence](#featured-projects), a real-time multi-user platform on a containerized stack
-- **Open to** — backend engineering internships
+<table width="100%">
+<tr>
+<td width="14%">
+
+$\textcolor{#F7A41D}{\textsf{\textbf{Role}}}$
+
+</td>
+<td width="41%">Software Engineer · Backend Development</td>
+<td width="45%" align="center" valign="middle" rowspan="7">
+  <a href="https://profile.intra.42.fr/users/oobbad">
+    <img src="https://badge.mediaplus.ma/binary/oobbad" alt="Oualid Obbad — live 42 level and grade" width="400" />
+  </a>
+  <br/><br/>
+  <sub>Live from the 42 intranet. Level and grade advance only on projects validated in peer code review.</sub>
+</td>
+</tr>
+<tr><td>
+
+$\textcolor{#F7A41D}{\textsf{\textbf{Based in}}}$
+
+</td><td>Casablanca, Morocco</td></tr>
+<tr><td>
+
+$\textcolor{#F7A41D}{\textsf{\textbf{School}}}$
+
+</td><td>1337 Coding School (42 Network) — UM6P, Rabat</td></tr>
+<tr><td>
+
+$\textcolor{#F7A41D}{\textsf{\textbf{Prior degree}}}$
+
+</td><td>BTS — Computer Systems and Networks</td></tr>
+<tr><td>
+
+$\textcolor{#F7A41D}{\textsf{\textbf{Core stack}}}$
+
+</td><td>C · C++98 · Java · Spring · PostgreSQL · Docker · Linux</td></tr>
+<tr><td>
+
+$\textcolor{#F7A41D}{\textsf{\textbf{Building now}}}$
+
+</td><td><a href="#featured-projects">ft_transcendence</a> — real-time multi-user containerized platform</td></tr>
+<tr><td>
+
+$\textcolor{#F7A41D}{\textsf{\textbf{Open to}}}$
+
+</td><td>Backend engineering internships</td></tr>
+</table>
 
 > **How I work:** understand it end to end, or you don't understand it. Every project below was implemented from a written specification rather than assembled from libraries — an HTTP/1.1 server on a non-blocking `epoll` loop, a Unix shell, a layered Java application over PostgreSQL, and a multi-container Docker stack.
 
