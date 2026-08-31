@@ -41,11 +41,21 @@ jobs:
           [ "$size" -gt 10000 ] || { echo "::error::SVG suspiciously small (${size}B)"; exit 1; }
           mv badge.tmp assets/42-badge.svg
 
+      - name: Bust GitHub's image cache
+        run: |
+          # GitHub proxies README images through Camo, which caches by URL. When the
+          # SVG bytes change but the URL does not, Camo keeps serving the old image.
+          # Pinning ?v= to the file's content hash changes the URL whenever the badge
+          # changes, so a new theme shows up immediately instead of after Camo's TTL.
+          sha=$(sha256sum assets/42-badge.svg | cut -c1-8)
+          sed -i -E "s|(assets/42-badge\.svg)\?v=[^\"]*|\1?v=${sha}|" README.md
+          echo "cache-bust token: ${sha}"
+
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/42-badge.svg
+          git add assets/42-badge.svg README.md
           if git diff --staged --quiet; then
             echo "badge unchanged — nothing to commit"
           else
