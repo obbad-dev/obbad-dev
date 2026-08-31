@@ -1,0 +1,49 @@
+name: Refresh 42 Badge
+
+# The upstream badge (badge.mediaplus.ma) sends "cache-control: no-cache, private",
+# takes 2-5s to respond and weighs ~1.9 MB. GitHub's Camo image proxy therefore
+# refuses to cache it, so every visitor triggers a fresh, slow origin fetch and the
+# badge often fails to paint on first load. This workflow snapshots it into the repo
+# so the README can serve a static, CDN-cached copy instead.
+
+on:
+  schedule:
+    - cron: "30 3 * * *" # daily at 03:30 UTC
+  workflow_dispatch: # allows manual trigger
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch badge
+        run: |
+          mkdir -p assets
+          curl -fsSL --retry 3 --retry-delay 5 --max-time 90 \
+            "https://badge.mediaplus.ma/greenbinary/oobbad" -o badge.tmp
+
+      - name: Validate before replacing
+        run: |
+          # Never overwrite a good badge with an error page or a truncated response.
+          head -c 512 badge.tmp | grep -q "<svg" || { echo "::error::response is not an SVG"; exit 1; }
+          size=$(wc -c < badge.tmp)
+          echo "fetched ${size} bytes"
+          [ "$size" -gt 10000 ] || { echo "::error::SVG suspiciously small (${size}B)"; exit 1; }
+          mv badge.tmp assets/42-badge.svg
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/42-badge.svg
+          if git diff --staged --quiet; then
+            echo "badge unchanged — nothing to commit"
+          else
+            git commit -m "chore: refresh 42 badge"
+            git push
+          fi
